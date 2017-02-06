@@ -1,0 +1,19 @@
+body {
+	font-family: fantasy;
+	font-size: 25pt;
+	margin: 8%;
+	margin-top: 3%;
+	text-align: center;
+	background: mistyrose;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 50pt;
+	color: salmon;
+}

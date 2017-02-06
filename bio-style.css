@@ -1,0 +1,13 @@
+body {
+	font-family: "Comic Sans MS";
+	font-size: 20pt;
+	background-color: indianred;
+	color: white;
+	margin: 10%;
+}
+
+h1 {
+	font-family: "Blippo", fantasy;
+	font-variant: small-caps;
+	text-align: center;
+}
