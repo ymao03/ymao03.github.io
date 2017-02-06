@@ -1,19 +1,19 @@
 body {
-	font-family: fantasy;
+	font-family: "copperplate";
 	font-size: 25pt;
 	margin: 8%;
 	margin-top: 3%;
 	text-align: center;
-	background: mistyrose;
+	background: black;
 }
 
 img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 h1 {
-	font-family: fantasy;
-	font-size: 50pt;
-	color: salmon;
+	font-family: "copperplate";
+	font-size: 42pt;
+	color: ivory;
 }
