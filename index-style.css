@@ -17,3 +17,8 @@ h1 {
 	font-size: 42pt;
 	color: ivory;
 }
+
+a {
+	color: white;
+	text-decoration: none;
+}

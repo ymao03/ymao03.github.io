@@ -11,3 +11,14 @@ h1 {
 	font-variant: small-caps;
 	text-align: center;
 }
+
+h2 {
+	font-family: "copperplate";
+	font-size: 15pt;
+	text-align: center;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
