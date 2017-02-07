@@ -18,7 +18,12 @@ h2 {
 	text-align: center;
 }
 
-a {
+a:link, a:visited {
 	color: white;
 	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: white;
+	color: indianred;
 }

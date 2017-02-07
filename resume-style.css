@@ -30,13 +30,12 @@ h3 {
 
 a:link, a:visited {
 	color: white;
-	background-color: steelblue;
 	text-decoration: none;
 }
 
 a:hover, a:active {
 	background-color: white;
-	color: black;
+	color: darkslategrey;
 }
 
 body {
