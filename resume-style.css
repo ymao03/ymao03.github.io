@@ -1,16 +1,18 @@
 body {
-	font-family: "Garamond";
-	font-size: 16pt;
-	background-color: darkslategrey;
-	color: white;
+	font-family: "garamond";
+	font-size: 18pt;
+	color: black;
+
+	background-image: url("myphoto.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 70% 15%;
+
 }
 
 h1 {
 	font-size: 40pt;
 	text-align: center;
-	border-style: solid;
-	border-color: cornsilk;
-	border-width: thick;
 }
 
 h2 {

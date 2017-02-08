@@ -2,9 +2,12 @@ body {
 	font-family: "copperplate";
 	font-size: 25pt;
 	margin: 8%;
-	margin-top: 3%;
 	text-align: center;
-	background: black;
+
+	background-image: url("myphoto.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 70% 15%;
 }
 
 img {

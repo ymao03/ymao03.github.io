@@ -1,9 +1,13 @@
 body {
 	font-family: "futura";
 	font-size: 15pt;
-	background-color: indianred;
 	color: white;
 	margin: 10%;
+
+	background-image: url("myphoto.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 70% 15%;
 }
 
 h1 {
