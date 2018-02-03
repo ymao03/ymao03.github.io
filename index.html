@@ -16,6 +16,8 @@
 			font-size: 35px;
 			text-align: center;
 			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			padding-top: 40px;
+			padding-bottom: 40px;
 		}
 		p {
 			font-family: "Helvetica", serif;
@@ -30,13 +32,15 @@
 		}
 		.vcenter {
 			position: relative;
-			top: 30%;
+			top: 35%;
 		}
 		.title {
 			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-			font-size: 90px;
+			font-size: 65px;
 			text-align: center;
-			color: rgba(255,248,220,0.7);
+			color: rgb(245,255,250);
+			padding-bottom: 0px;
+			padding-top: 0px;
 		}
 		.img-responsive {
 		    display: block;
@@ -49,15 +53,7 @@
 		}
 		#subtitle {
 			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-			font-size: 30px;
-		}
-		#title {
-			font-size: 100px;
-		}
-		#projectsTitle {
-			padding-top: 40px;
-			padding-bottom: 40px;
-			color: black;
+			font-size: 20px;
 		}
 		#navheader {
 			font-family: "Snell Roundhand", cursive;
@@ -70,7 +66,16 @@
     		background-repeat: no-repeat;
 		}
 		#projects {
-			background-color: rgba(47,79,79,0.30);
+			background-color: rgba(169,169,169,0.4);
+			height: 800px;
+		}
+		#resume {
+			background-color: rgb(220,220,220,0.9);
+			height: 1000px;
+		}
+		#socialmedia {
+			background-color: rgb(220,220,220,0.9);
+			height: 2000px;
 		}
 		.image {
 			display: block;
@@ -121,6 +126,11 @@
 			border-radius: 0;
 			transition: .35s ease;
 		}
+		.cropped {
+			object-fit: cover;
+			width:200px;
+			height:200px;
+		}
 		#githubBtn {
 			padding: 20px 30px;
 			font-size: 15px;
@@ -144,27 +154,33 @@
 			</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#home">HOME</a></li>
-				<li><a href="#resume">RESUME</a></li>
+				<li><a href="#resume">EXPERIENCES</a></li>
 				<li><a href="#projects">PROJECTS</a></li>
-				<li><a href="#socialmedia">SOCIAL MEDIA</a></li>
+				<li><a href="#socialmedia">MORE</a></li>
 			</ul>
 	</div>
 
 	<div id="home" class="container-fluid">
-		<div class="row vcenter title">
+		<div class="row vcenter">
 			<div class="col-md-6 col-md-offset-3">
-				<h1 id="title">Hi, I'm Ian</h1>
-				<p id="subtitle">I'm a computer science student at Tufts University and an aspired software engineer. </p>
+				<h1 class="title">Ni hao, this is Ian.</h1>
+				<h1 class= "title" id="subtitle">Software development, social awareness and technology Impact.</h1>
 			</div>
 		</div>
 	</div>
 
 	<div id="resume" class="container-fluid">
+		<div class="row rowWithMargin">
+			<div class="col-md-6">
+				<h1> Why do I want to be a software developer? </h1>
+				<p></p>
+			</div>
+		</div>
 	</div>
 	
 	<div id="projects" class="container-fluid">
-		<h1 id="projectsTitle">My favorite CS projects</h1>
-		<div class="row rowWithMargin">
+		<h1>My favorite CS projects</h1>
+		<div class="row rowWithMargin" style="margin-top: 2%">
 			<div class="col-md-4">
 				<img src="proj1.jpg" alt="" class="image" style="width:95%;margin:0 auto">
   				<div class="overlay">
@@ -193,7 +209,7 @@
   				</div>
 			</div>		
 		</div>
-		<div class="row" style="margin-top: 50px">
+		<div class="row" style="margin-top: 5%">
 			<div class="col-md-2 col-md-offset-5">
 				<a href="https://github.com/ymao03" class="btn myBtn" id= "githubBtn" role="button">MORE ON MY GITHUB</a>
 			</div>
@@ -201,6 +217,79 @@
 	</div>
 	
 	<div id="socialmedia" class="container-fluid">
+		<div class="row" style="margin-top: 3%; margin-bottom: 1%">
+			<h1 style="font-size: 38px">Once you have travelled, the voyage never ends.</h1>
+		</div>
+		<div class="row rowWithMargin">
+			<div class="col-md-2 col-md-offset-1">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/aed018b09d4b38b1c18e35cb440367ad/5B17155E/t51.2885-15/e35/26187468_194868717919782_1698618269457448960_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/f73b0a3550d42e5a0867ca61d7fa8408/5B205743/t51.2885-15/s750x750/sh0.08/e35/26156013_179188322679882_4027801178929627136_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/98bcb0934f2ca3ddec355de59310e9e7/5B1645B2/t51.2885-15/sh0.08/e35/p640x640/25017616_400589337065387_4437226169145753600_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/f8cc6ea15adcc62d73af5e880612d8e3/5B133D19/t51.2885-15/s750x750/sh0.08/e35/23824874_1491437437636341_2976750057996419072_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/b552661d98b438a548d6b6a03d3e79c4/5B104449/t51.2885-15/s750x750/sh0.08/e35/18646167_217346032115441_4257311264721600512_n.jpg" alt="" class="cropped">
+			</div>
+		</div>
+		<div class="row rowWithMargin" style="margin-top: 30px">
+			<div class="col-md-2 col-md-offset-1">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/a389e735fb8c748785c4320172c931dd/5B127FFD/t51.2885-15/s640x640/sh0.08/e35/19425535_1754815504533240_3772241794364866560_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/258d8acd7b1f86eac26228907cd40392/5B1146A2/t51.2885-15/s750x750/sh0.08/e35/19121218_1309929959055396_8249456247930093568_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/98fd95e8424c07dbd158a3e95bfc8bb2/5B1CEAAA/t51.2885-15/s750x750/sh0.08/e35/18947372_305857189840369_4817343251721748480_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/26d1451cfc4cecc21af431d330f11730/5B16927C/t51.2885-15/s750x750/sh0.08/e35/18888434_1607402269326537_7468270111321751552_n.jpg" alt="" class="cropped">
+			</div>
+			<div class="col-md-2">
+				<img src="https://scontent-lhr3-1.cdninstagram.com/vp/1ab0f20ee9ef8e6932b2a83160c1f96e/5B13D3A5/t51.2885-15/s750x750/sh0.08/e35/17332581_2195131964045998_1080117346468626432_n.jpg" alt="" class="cropped">
+			</div>
+		</div>
+		<div class="row" style="margin-top: 40px">
+			<div class="col-md-2 col-md-offset-5">
+				<a href="https://www.instagram.com/ianmaoyb/?hl=en" class="btn myBtn" id= "githubBtn" role="button">MORE ON INSTAGRAM</a>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 150px">
+			<div class="col-md-5" style="margin-left: 4%">
+				<h1 style="padding-bottom: 0px; padding-top: 40%"> Where words fail, music speaks. </h1>
+				<h1 style="padding-top: 0px; padding-bottom: 0px; font-size: 28px; font-family: Snell Roundhand, cursive"> My top tracks of 2017 </h1>
+				<a href="https://open.spotify.com/user/ianmaoyibin" class="btn myBtn" id= "githubBtn" role="button" style="display:block; width: 50%; margin-left: auto; margin-right: auto; margin-top: 5%"> MY SPOTIFY PLAYLISTS</a>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="melodrama.jpg" alt="" style="width: 300px; height: 300px"> 
+					</div>
+					<div class="col-md-3">
+						<img src="lustforlife.jpg" alt="" style="width: 300px; height: 300px"> 
+					</div>
+					<div class="col-md-3">
+						<img src="ctrl.jpg" alt="" style="width: 300px; height: 300px"> 
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="paramore.jpg" alt="" style="width: 300px; height: 300px"> 
+					</div>
+					<div class="col-md-3">
+						<img src="misterwives.jpg" alt="" style="width: 300px; height: 300px"> 
+					</div>
+					<div class="col-md-3">
+						<img src="everybody.jpg" alt="" style="width: 300px; height: 300px"> 
+					</div>
+				</div>			
+			</div>
+		</div>
 	</div>
 </body>
 </html>
